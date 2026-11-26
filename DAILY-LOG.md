@@ -18,3 +18,10 @@ Append-only. One entry per day: what was uploaded or verified, the result, and t
 - **Private repo #3 uploaded:** `halftrend-boom-h4-singleind` (Private) — SingleInd HalfTrend EA v1.0, Boom 500 H4, with `.mq5`, `.ex5`, three `.set` files (best: rollover 256), matrix report and tester artefacts.
   - Boom 500 H4, 2026-01-01 → 2026-11-16, $10,000: **+$444.09 laptop / +$419.84 VM, 203 trades, 55.67% win, PF 1.59, MaxDD $75.51** (in-sample only). Rollover sweep N=256: +$470.66, 176 trades, PF 1.934.
 - **Next:** Private repo #4 `stc-hull-crash-h4-singleind` (Crash H4, +$258.61 laptop).
+
+## 2026-11-26 — Day 3
+
+- **New-build check (before picking the item):** scanned the sr-reverse-ea folder and MQL5 goal folders — the only new .mq5 files are 7 diagnostic/probe scripts for the MQL5 article project (project-v5: PanelProbe, VerifyC10P1, ReattachC10P1, ValidateInputs, MoneyCheck, ExportBuffers, MTFBoundary) — no .ex5, no backtest, no compile report. Diagnostic files are excluded per inventory rules, so **nothing was appended to the queue**.
+- **Private repo #4 uploaded:** `stc-hull-crash-h4-singleind` (Private) — SingleInd STC-Hull EA v1.0, Crash 500 H4, with `.mq5`, `.ex5`, three `.set` files (best: rollover 31), matrix report and tester artefacts.
+  - Crash 500 H4, 2026-01-01 to 2026-11-16, $10,000: **+$258.61 laptop / +$242.32 VM, 258 trades, 52.33% win, PF 1.45, MaxDD $57.18** (in-sample only). Rollover sweep N=31: +$248.05, 257 trades, PF 1.432.
+- **Next:** Private repo #5 `gold-h1-combo10-flip-v45` (Gold H1 cb0, +$248.86, thin-sample flag).
