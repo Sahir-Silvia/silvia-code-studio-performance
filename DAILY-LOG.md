@@ -25,3 +25,11 @@ Append-only. One entry per day: what was uploaded or verified, the result, and t
 - **Private repo #4 uploaded:** `stc-hull-crash-h4-singleind` (Private) — SingleInd STC-Hull EA v1.0, Crash 500 H4, with `.mq5`, `.ex5`, three `.set` files (best: rollover 31), matrix report and tester artefacts.
   - Crash 500 H4, 2026-01-01 to 2026-11-16, $10,000: **+$258.61 laptop / +$242.32 VM, 258 trades, 52.33% win, PF 1.45, MaxDD $57.18** (in-sample only). Rollover sweep N=31: +$248.05, 257 trades, PF 1.432.
 - **Next:** Private repo #5 `gold-h1-combo10-flip-v45` (Gold H1 cb0, +$248.86, thin-sample flag).
+
+## 2026-11-27 — Day 4
+
+- **New-build check (before picking the item):** scanned the sr-reverse-ea folder and MQL5 goal folders — the newest .mq5 files are the same 7 diagnostic/probe scripts for the MQL5 article project (project-v5: PanelProbe, VerifyC10P1, ReattachC10P1, ValidateInputs, MoneyCheck, ExportBuffers, MTFBoundary, 26 Nov 01:43–01:58) already noted on Day 3 — no .ex5, no backtest, no compile report. Nothing new since Day 3, so **nothing was appended to the queue**.
+- **Private repo #5 uploaded:** `gold-h1-combo10-flip-v45` (Private) — Combo10 Flip EA v4.5, Gold H1 cb0 optimisation, with `.mq5`, `.ex5`, `Gold-H1-v45.set`, H1 + summary backtest reports, README, and `tester-results-cb0-optimised/` (6 CSVs: trade / signals / daily, h1 + h2).
+  - XAUUSDmicro H1, 2026, $10,000: **+$248.86, 152 trades, 47.37% win, PF 1.803, MaxDD $60.17** (in-sample only). Thin-sample flag: GPT picks M30 first (429 trades, net/DD 5.59 vs H1 4.14). cb0 = TIME-CLOSE OFF, pure flip-only.
+- **PERFORMANCE.md:** no change needed — the Gold H1 cb0 row (+$248.86, 152 trades, MaxDD $60.17) was already in the table since Day 1.
+- **Next:** Private repo #6 `risk-reward-ratio-indicator` (28 Nov).
