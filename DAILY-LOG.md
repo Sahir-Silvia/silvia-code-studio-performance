@@ -33,3 +33,12 @@ Append-only. One entry per day: what was uploaded or verified, the result, and t
   - XAUUSDmicro H1, 2026, $10,000: **+$248.86, 152 trades, 47.37% win, PF 1.803, MaxDD $60.17** (in-sample only). Thin-sample flag: GPT picks M30 first (429 trades, net/DD 5.59 vs H1 4.14). cb0 = TIME-CLOSE OFF, pure flip-only.
 - **PERFORMANCE.md:** no change needed — the Gold H1 cb0 row (+$248.86, 152 trades, MaxDD $60.17) was already in the table since Day 1.
 - **Next:** Private repo #6 `risk-reward-ratio-indicator` (28 Nov).
+
+## 2026-11-28 — Day 5
+
+- **New-build check (before picking the item):** scanned `sr-reverse-ea/` and all MQL5 goal folders — no `.mq5`/`.ex5` modified since 27 Nov except the Day 4 package copies (already uploaded). The only other recent files are the same 7 article project-v5 diagnostic scripts (no .ex5, no backtest). **Nothing appended to the queue.**
+- **Private repo #6 uploaded:** `risk-reward-ratio-indicator` (Private) — RiskRewardRatio indicator v1.10, with `.mq5`, both `.ex5` builds (AVX2 + X64 Regular), `description.md`, logos, 3 screenshots, QA report and GPT review notes.
+  - Compile 0 errors / 0 warnings, 1451 ms; terminal-tested 24–25 Nov 2026 — EURUSD H1, Risk:Reward **1:2.00 verified** (Entry 1.11209, SL 1.11109, TP 1.11409, Risk 100 pts / 10 pips, Reward 200 pts / 20 pips, Lot 0.10). Indicator, not an EA — no backtest, no profit claim. GPT v1.10: corrections accepted, final sign-off awaits native Windows + connected demo tests (external). Same v1.10 code published on MQL5 Market 25 Nov as Steadymove Trade Planner (product 211310, FREE).
+  - Note: the demo account number in `REPORT.md` was redacted before upload; no credential in any uploaded file.
+- **PERFORMANCE.md:** no change — an indicator adds no profit row.
+- **Next:** complete private repo `crash-m1-ema-cross-v36` — add `tester-results/` (15 files) + 2 extra root reports (29 Nov).
